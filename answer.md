@@ -27,3 +27,4 @@ https://github.com/vagabond-systems/forage-lyft-task-3-model-answer.git
 
 # Task 4
 https://github.com/vagabond-systems/forage-lyft-task-4-model-answer.git
+1. `sum()` function
