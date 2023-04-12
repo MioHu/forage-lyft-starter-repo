@@ -42,7 +42,7 @@ class SpindlerBattery(Battery):
         self.last_service_date = last_service_date
         self.current_date = current_date
     def battery_should_be_serviced(self):
-        return self.last_service_date.year + 2 < self.current_date
+        return self.last_service_date.replace(self.last_service_date.year + 2) < self.current_date
 
 class NubbinBattery(Battery):
     def __init__(self, last_service_date, current_date) -> None:
@@ -50,7 +50,7 @@ class NubbinBattery(Battery):
         self.last_service_date = last_service_date
         self.current_date = current_date
     def battery_should_be_serviced(self):
-        return self.last_service_date.year + 4 < self.current_date
+        return self.last_service_date.replace(self.last_service_date.year + 4) < self.current_date
 
 
 # car

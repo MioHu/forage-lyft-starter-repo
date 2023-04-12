@@ -1,7 +1,7 @@
 # Task 2
 https://github.com/vagabond-systems/forage-lyft-task-2-model-answer.git
 
-1. file structure
+1. File structure
     - engine
         - engine
         - specific engines
@@ -12,10 +12,13 @@ https://github.com/vagabond-systems/forage-lyft-task-2-model-answer.git
     - car_factory
     - serviceable
 
-2. abc (Abstact Base Class)
+2. Pacakage `abc` (Abstact Base Class)
 Engine, Battery, Serviceable should inherit from abc
 
-3. create_xxx should be `@staticmethod` in CarFactory
+3. `create_xxx` should be `@staticmethod` in CarFactory
+
+4. Add year to datetime object
+`old_time.replace(year=old_time + 1)`
 
 
 # Task 3
