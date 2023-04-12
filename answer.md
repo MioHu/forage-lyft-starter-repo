@@ -24,3 +24,6 @@ Engine, Battery, Serviceable should inherit from abc
 # Task 3
 https://github.com/vagabond-systems/forage-lyft-task-3-model-answer.git
 1. test based on engine/battery not on car
+
+# Task 4
+https://github.com/vagabond-systems/forage-lyft-task-4-model-answer.git
